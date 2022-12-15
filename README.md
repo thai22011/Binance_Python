@@ -1,2 +1,2 @@
-# Predicting Newly Listed Cryptocurrencies Pump & Dump Schemes on Binance Using Python
-This is a capstone project for my DataScience Bootcamp at BrainStation Vancouver. The hypothesis is that newly listed cryptocurrencies on Binance will have a pump and dump scheme within the initial 90-day period based on the movement of BTCUSDT. The model will predict the percentage of pump before it happens.
+# An Overview of Machine Learning Models on Crypto Clustering and Price Prediction on Binance.
+Cryptocurrencies are known for their volatility and susceptibility to scams, making it difficult for investors to navigate the market. Crypto clustering and price prediction can help investors mitigate some of these risks and make more informed decisions
