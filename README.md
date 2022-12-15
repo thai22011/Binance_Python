@@ -34,6 +34,10 @@ Comparing to similar works online that use Kmeans clustering on cryptocurrencies
 ### Improvement: 
 Due to the complexity of the dataset and relevance for the business use case, the clustering is based on only data in 2022. Thus, some cryptos that were delisted before 2022 will be manually put in group 5. An improvement model will include these delisted cryptos as well. In addition, I can try different clustering methods, or feature engineering to simplify the clusters. Lastly, if the same clustering can be applied to the whole crypto market, it will be more valuable as there are over 1000 cryptos and it will give better insights to the mass than just within Binance ecosystem.
 
+![](https://github.com/thai22011/Crypto_Clustering_PricePrediction/blob/5000a73056dfb5599e15fcd460e155cc593aacf6/assets/CLUSTERING%20-%20Price.png)
+![](https://github.com/thai22011/Crypto_Clustering_PricePrediction/blob/5000a73056dfb5599e15fcd460e155cc593aacf6/assets/CLUSTERING%20-%20Volume.png))
+![](assets/CLUSTERING%20-%20Number%20of%20Trades.png)
+
 ## Price prediction
 Price prediction algorithms can also be used to forecast the future value of cryptocurrencies. SARIMA and FBProphet are the 2 models which predict the CHANGE in the price of the representative crypto in each cluster. Then, the actual price prediction is reconstructed to show the future price.
 
