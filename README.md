@@ -38,7 +38,7 @@ Due to the complexity of the dataset and relevance for the business use case, th
 ![](assets/CLUSTERING%20-%20Volume.png))
 ![](assets/CLUSTERING%20-%20Number%20of%20Trades.png)
 
-## Price prediction
+## Price Prediction
 Price prediction algorithms can also be used to forecast the future value of cryptocurrencies. SARIMA and FBProphet are the 2 models which predict the CHANGE in the price of the representative crypto in each cluster. Then, the actual price prediction is reconstructed to show the future price.
 
 There are 6 price predictions in total for each cluster group from 0-5. However, due to insufficient data by delisting, Group 4 and 5 cannot produce any meaningful prediction. On the other hand, the MAPE (ie. mean error, the lower the better) for Group 0,1,2, and 3 are all less than 1% for both SARIMA and FBProphet. These are the score when predicting 10 days or less. MAPE score increased significantly more than 10 days. 
@@ -49,7 +49,9 @@ Other price prediction models available seem to use prediction directly on the P
 ### Improvement: 
 An improvement would be including LSTM RNN in the price prediction which many articles were written about. Another improvement would be setting up a live and real-time price prediction for the business use case.
 
+![](assets/Daily%20Price%20Prediction%20BTCUSDT.png)
 
+![](assets/Daily%20Price%20Prediction%20BAKEUSDT.png)
 
 ## Conclusion
 This project set the foundation for more complex projects such as real-time clustering and price prediction of cryptos. In addition, algo trading bots would also be benefits from this project as it depends on the price prediction to make buy and sale orders.
