@@ -8,7 +8,7 @@ The dataset is generated directly from the market via Binance API. In brief, Bin
 ## CLUSTERING
 K-means Clustering is an unsupervised machine-learning (ML) model that groups cryptocurrencies based on the similarity of their price-volume movement. The model recommended 5 clusters which are found at the elbow in the Inertia plot and the highest of the Silhouette Score. Based on the model and domain knowledge, the following clusters are below (Plot attached below for reference):
 
-![](assets/CLUSTERING - Map.png)
+![]([assets/CLUSTERING - Map.png](https://github.com/thai22011/Crypto_Clustering_PricePrediction/blob/979b62db6ad8d1964870e7550ba317c5942f106b/assets/CLUSTERING%20-%20Map.png))
 
 #### Group 0 - Small Cap: 
 Contains small-cap cryptos. They contain some quality projects with a strong team and are backed by VCs. Similar to Group 0, they have low prices and high volume, suitable for trading. However, they may not be the best to hold long-term.
