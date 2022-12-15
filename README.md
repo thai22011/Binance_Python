@@ -52,14 +52,17 @@ In conclusion, while these tools can help investors mitigate some of the risks a
 
 # Citation
 Use this bibtex to cite this repository:
-`@misc{thai22011_Crypto_Clustering_PricePrediction_2022,
+
+```
+@misc{thai22011_Crypto_Clustering_PricePrediction_2022,
   title={An Overview of Machine Learning Models on Crypto Clustering and Price Prediction on Binance},
   author={Thai Nguyen},
   year={2022},
   publisher={Github},
   journal={GitHub repository},
   howpublished={\url{https://github.com/thai22011/Crypto_Clustering_PricePrediction}},
-}`
+}
+```
 
 # Contributing
 Contributions to this repository are welcome. Examples of things you can contribute:
@@ -74,8 +77,8 @@ Contributions to this repository are welcome. Examples of things you can contrib
 The `python-binance` package is ONLY required for notebook 1.CRYPTO - Thai Nguyen - Data Collection.ipynb
 Other notebooks do not require special package
 
-
-`conda create -n timeseries python=3.8 numpy pandas matplotlib seaborn statsmodels scikit-learn==0.24.1 datetime dateutil jupyter jupyterlab
+```
+conda create -n timeseries python=3.8 numpy pandas matplotlib seaborn statsmodels scikit-learn==0.24.1 datetime dateutil jupyter jupyterlab
 
 conda activate timeseries
 
@@ -85,4 +88,5 @@ conda install -c conda-forge fbprophet=0.7.1
 
 pip install python-binance
 
-ipython kernel install --name "timeseries" --user`
+ipython kernel install --name "timeseries" --user
+```
