@@ -1,0 +1,15 @@
+These package is ONLY required for notebook 1.CRYPTO - Thai Nguyen - Data Collection.ipynb
+Other notebooks do not require special package
+
+
+conda create -n timeseries python=3.8 numpy pandas matplotlib seaborn statsmodels scikit-learn==0.24.1 datetime dateutil jupyter jupyterlab
+
+conda activate timeseries
+
+conda install -c plotly plotly=4.14.3
+
+conda install -c conda-forge fbprophet=0.7.1
+
+pip install python-binance
+
+ipython kernel install --name "timeseries" --user
