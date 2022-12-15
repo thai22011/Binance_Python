@@ -8,7 +8,7 @@ The dataset is generated directly from the market via Binance API. In brief, Bin
 ## CLUSTERING
 K-means Clustering is an unsupervised machine-learning (ML) model that groups cryptocurrencies based on the similarity of their price-volume movement. The model recommended 5 clusters which are found at the elbow in the Inertia plot and the highest of the Silhouette Score. Based on the model and domain knowledge, the following clusters are below (Plot attached below for reference):
 
-![assets/CLUSTERING - Map.png](https://github.com/thai22011/Crypto_Clustering_PricePrediction/blob/979b62db6ad8d1964870e7550ba317c5942f106b/assets/CLUSTERING%20-%20Map.png)
+![assets/CLUSTERING - Map.png](assets/CLUSTERING%20-%20Map.png)
 
 #### Group 0 - Small Cap: 
 Contains small-cap cryptos. They contain some quality projects with a strong team and are backed by VCs. Similar to Group 0, they have low prices and high volume, suitable for trading. However, they may not be the best to hold long-term.
@@ -34,8 +34,8 @@ Comparing to similar works online that use Kmeans clustering on cryptocurrencies
 ### Improvement: 
 Due to the complexity of the dataset and relevance for the business use case, the clustering is based on only data in 2022. Thus, some cryptos that were delisted before 2022 will be manually put in group 5. An improvement model will include these delisted cryptos as well. In addition, I can try different clustering methods, or feature engineering to simplify the clusters. Lastly, if the same clustering can be applied to the whole crypto market, it will be more valuable as there are over 1000 cryptos and it will give better insights to the mass than just within Binance ecosystem.
 
-![](https://github.com/thai22011/Crypto_Clustering_PricePrediction/blob/5000a73056dfb5599e15fcd460e155cc593aacf6/assets/CLUSTERING%20-%20Price.png)
-![](https://github.com/thai22011/Crypto_Clustering_PricePrediction/blob/5000a73056dfb5599e15fcd460e155cc593aacf6/assets/CLUSTERING%20-%20Volume.png))
+![](assets/CLUSTERING%20-%20Price.png)
+![](assets/CLUSTERING%20-%20Volume.png))
 ![](assets/CLUSTERING%20-%20Number%20of%20Trades.png)
 
 ## Price prediction
